@@ -1,0 +1,43 @@
+/*
+ Theme Name:   spyglass
+ Description:  
+ Author:       Themeisle
+ Author URI:   https://themeisle.com
+ Template:     bookrev-lite
+ Version:      1.0.0
+ License:      GNU General Public License version 2
+ License URI:  license.txt
+ Tags:         
+*/
+
+
+/*--------------------------------------------------------------
+	HEADER
+--------------------------------------------------------------*/
+#top-bar {
+    background: transparent url("img/top_bar_bg2.png") repeat-x scroll 0% 0%;
+    background-color: #21282e !important;
+    height: 60px;
+}
+
+.search-form input {
+    width: 100%;
+    border: 1px solid #21282e;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: "Titillium Web",sans-serif;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    color: #21282e;
+    background: #FFF none repeat scroll 0% 0%;
+}
+
+
+/*--------------------------------------------------------------
+	GENERAL
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+	FOOTER
+--------------------------------------------------------------*/
