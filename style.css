@@ -22,22 +22,102 @@
 
 .search-form input {
     width: 100%;
-    border: 1px solid #21282e;
+    border: none !important;
     border-radius: 20px;
     padding: 5px 15px;
     font-family: "Titillium Web",sans-serif;
     font-size: 0.75em;
     text-transform: uppercase;
-    color: #21282e;
+    color: #21282e !important;
     background: #FFF none repeat scroll 0% 0%;
 }
 
+#top-bar-menu ul li a {
+    font-family: "Titillium Web",sans-serif;
+    font-size: 1em;
+    color: #7c7f81 !important;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    line-height: 3.6;
+    transition: all 0.25s ease-in-out 0s;
+    margin-left: 25px;
+}
+#top-bar-menu ul li+li {
+	background: url("img/header-separator2.png") no-repeat 3px 4px;
+}
+
+#top-bar-menu ul li a:hover {
+    color: #ff432a !important;
+}
+
+#inner-header {
+    background: #F9F9F9 none repeat scroll 0% 0%;
+    padding: 30px 0px;
+}
+#main-menu {
+    background: #FFF none repeat scroll 0% 0%;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: none;
+    padding: 20px 0px;
+}
+
+#main-menu nav ul li a {
+	font-family: "Titillium Web",sans-serif;
+	color: #8A8A8A;
+	font-size: 1em;
+	transition: all 0.25s ease-in-out 0s;
+	line-height: 1.7;
+	//text-transform: uppercase;
+	margin-left: 10px;
+}
+
+#main-menu nav ul li a:hover {
+    color: #ff432a !important;
+}
+
+#main-menu nav ul li+li{
+	background: url("img/header-separator.png") no-repeat -7px 6px;
+}
+.children li {
+	background: none !important;
+	padding: 0;
+
+}
 
 /*--------------------------------------------------------------
 	GENERAL
 --------------------------------------------------------------*/
+.featured-carousel .slide .feat-img .comment-count, .article-container article .feat-img .comment-count {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background: #ffbb02 none repeat scroll 0% 0% !important;
+    padding: 0px 10px;
+    color: #FFF;
+}
+
+nav#pagination ul li.active a, nav#pagination ul li span.current {
+    background: #ff432a none repeat scroll 0% 0%;
+}
+
+#slider{
+	background: url("img/slider_bg2.jpg") repeat-x;
+}
+
+.article-container article .content {
+    float: left;
+    width: 642px;
+    border: 1px solid #ECECEC;
+    padding: 13px;
+    border-radius: 3px;
+}
 
 
 /*--------------------------------------------------------------
 	FOOTER
 --------------------------------------------------------------*/
+
+#main-footer .lower-footer {
+    background-color: #21282e !important;
+    padding: 20px 0px;
+}
