@@ -1,0 +1,209 @@
+/*
+ Theme Name:   spyglass
+ Description:  
+ Author:       Themeisle
+ Author URI:   https://themeisle.com
+ Template:     bookrev-lite
+ Version:      1.0.0
+ License:      GNU General Public License version 2
+ License URI:  license.txt
+ Tags:         
+*/
+
+
+/*--------------------------------------------------------------
+	HEADER
+--------------------------------------------------------------*/
+#top-bar {
+    background: transparent url("img/top_bar_bg2.png") repeat-x scroll 0% 0%;
+    background-color: #21282e !important;
+    height: 60px;
+}
+
+#top-bar-menu ul {
+    padding: 5px;
+}
+
+#top-bar-menu ul li a{
+    font-size: 0.9em !important;
+}
+
+.search-form input {
+    width: 100%;
+    border: none !important;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    color: #21282e !important;
+    background: #FFF none repeat scroll 0% 0%;
+}
+
+#top-bar-menu ul li a {
+  
+    font-size: 1em;
+    color: #7c7f81 !important;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    line-height: 3.6;
+    transition: all 0.25s ease-in-out 0s;
+    margin-left: 25px;
+}
+#top-bar-menu ul li+li {
+	background: url("img/snav_n.png") no-repeat 3px 3px;
+}
+
+#top-bar-menu ul li a:hover {
+    color: #ff432a !important;
+}
+
+#inner-header {
+    background: #F9F9F9 none repeat scroll 0% 0%;
+    padding: 30px 0px;
+}
+#main-menu {
+    background: #FFF none repeat scroll 0% 0%;
+    border-top: 1px solid #E0E0E0;
+    border-bottom: none;
+    padding: 20px 0px;
+}
+
+#main-menu nav ul li a {
+	
+	color: #8A8A8A;
+	font-size: 1em;
+	transition: all 0.25s ease-in-out 0s;
+	line-height: 1.7;
+	//text-transform: uppercase;
+	margin-left: 10px;
+}
+
+#main-menu nav ul li a:hover {
+    color: #ff432a !important;
+}
+
+#main-menu nav ul li+li{
+	background: url("img/header-separator.png") no-repeat 0px 3px;
+}
+.children li {
+	background: none !important;
+	padding: 0;
+
+}
+
+/*--------------------------------------------------------------
+	GENERAL
+--------------------------------------------------------------*/
+#main-content {
+    background: #FFF none repeat scroll 0% 0% !important;
+    padding-top: 1px;
+    margin-top: 0px;
+}
+
+.featured-carousel .slide .feat-img .comment-count, .article-container article .feat-img .comment-count {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background: #ffbb02 none repeat scroll 0% 0% !important;
+    padding: 0px 10px;
+    color: #FFF;
+}
+
+nav#pagination ul li.active a, nav#pagination ul li span.current {
+    background: #ff432a none repeat scroll 0% 0%;
+}
+
+#slider{
+	background: url("img/slider_bg2.jpg") repeat-x;
+}
+
+.article-container article header .meta .categ a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8em;
+
+}
+.article-container article header .meta .categ a:first-child {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding-left:20px;
+}
+
+
+.article-container article header .meta .date {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: #8A8A8A;
+    font-size: 0.9em;
+}
+
+#main-sidebar ul li a:hover{
+    color: #ffb902 !important;
+}
+
+.article-container article header .meta .categ a {
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    font-size: 0.8em;
+   
+}
+
+
+.categ {
+    background: url("img/user.png") no-repeat 1px 4px;
+}
+
+
+/*--------------------------------------------------------------
+	FOOTER
+--------------------------------------------------------------*/
+
+#wp-calendar {
+    border-style:hidden;
+}
+#calendar_wrap table tfoot, #calendar_wrap table tbody tr td, #calendar_wrap table thead tr th {
+    border: none;
+    color: #807979 !important;
+}
+
+#calendar_wrap table caption {
+    padding: 10px 0px;
+    color: #FFBB02 !important;
+}
+
+#main-footer .widget h2 {
+
+    color: #FFF;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding: 15px 0px;
+    border: none;
+}
+
+#main-footer ul li {
+    border-bottom: 1px solid #292929 !important;
+}    
+
+#main-footer ul li a {
+    color: #818382;
+}    
+#main-footer ul li a:hover {
+    color: #ffb902;
+}    
+
+
+#main-footer ul li {
+    border-bottom: 1px solid #292929 !important;
+}   
+
+#main-footer .upper-footer {
+    padding: 20px 0px;
+    background-color: #21282e !important;
+}
+
+#main-footer .lower-footer {
+    background-color: #191e22 !important;
+    padding: 20px 0px;
+}
