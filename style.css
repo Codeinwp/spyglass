@@ -95,6 +95,7 @@
 /*--------------------------------------------------------------
 	GENERAL
 --------------------------------------------------------------*/
+
 #main-content {
     background: #FFF none repeat scroll 0% 0% !important;
     padding-top: 1px;
@@ -110,12 +111,19 @@
     color: #FFF;
 }
 
+
+
 nav#pagination ul li.active a, nav#pagination ul li span.current {
     background: #ff432a none repeat scroll 0% 0%;
 }
 
+.grade.good {
+    background: #ffbb02 none repeat scroll 0% 0% !important;
+}
+
 #slider{
 	background: url("img/slider_bg2.jpg") repeat-x;
+    height: 291px;
 }
 
 .article-container article header .meta .categ a {
@@ -150,9 +158,76 @@ nav#pagination ul li.active a, nav#pagination ul li span.current {
    
 }
 
+.article-container.post article a {
+    color: #ff432a !important;
+    font-weight: 600;
+}
+
+.url{
+    color: #FF6850 !important;
+}
 
 .categ {
     background: url("img/user.png") no-repeat 1px 4px;
+}
+
+#slider .slide .book-cover {
+    float: right;
+    width: 19%;
+    overflow: hidden;
+    margin-right: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    height: 300px;
+    background: #000 none repeat scroll 0% 0%;
+    margin-top: -25px;
+}
+
+#slider .cycle-pager {
+    position: absolute;
+    height: 13px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9999;
+    visibility: hidden;
+}
+
+#slider .slide .slide-description {
+    background: #FFF none repeat scroll 0% 0%;
+    float: left;
+    width: 78%;
+    min-height: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    height: 270px;
+    margin-top: -14px;
+}
+
+#slider .sd-meta {
+    border: 1px solid #E9E9E9;
+    border-radius: 3px;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+#slider .sd-meta .read-more {
+    float: right;
+    padding: 0px;
+    font-family: "Titillium Web",sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #4B4B4B;
+    line-height: 1.5;
+    transition: all 0.25s ease-in-out 0s;
+}
+
+#main-menu #menu-social-icons {
+    float: right;
+    border-left: 1px dotted #CACACA;
+    padding-left: 10px;
+    margin-right: 45px;
 }
 
 
